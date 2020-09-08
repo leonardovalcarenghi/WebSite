@@ -1,0 +1,9 @@
+.profile-image {
+    border-radius: 100%;
+    border: 5px solid white;
+    background-position: center center;
+    background-position-y: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/assets/images/profile-image.png');
+}

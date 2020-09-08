@@ -1,0 +1,32 @@
+@media print {
+    /* Ocultar Botões de "Contratar-me" e "Baixar Currículo" */
+    .header .top-bar.container-fluid .actions {
+        display: none;
+    }
+    /* Ocultar Botões de Redes Sociais */
+    .header .top-bar.container-fluid .social {
+        display: none;
+    }
+    /* Ocultar Menu de Navegação das Seções */
+    .page-nav-space-holder.d-none.d-md-block {
+        display: none !important;
+    }
+    /* Ocultar Depoimentos */
+    #testimonials-section {
+        display: none !important;
+    }
+
+    /* Ocultar "Contato" */
+    #contact-section{
+        display: none !important;
+    }
+
+    footer{
+        display: none !important;
+    }
+
+    /* Botão de "Voltar ao Topo" */
+    #topcontrol{
+        display: none !important;
+    }
+}
