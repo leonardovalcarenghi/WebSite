@@ -7,3 +7,47 @@
     background-repeat: no-repeat;
     background-image: url('/assets/images/profile-image.png');
 }
+
+#about-section .profile-image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -90px;
+    /* border-radius: 0px; */
+    background-image: url('/assets/images/profile-image-2.jpg');
+}
+
+@media screen and (max-width: 1199px) {
+    #about-section .profile-image {
+        display: none;
+    }
+}
+
+/* Barra de Rolagem --------------------------------------------------- */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    transition-duration: .4s;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
