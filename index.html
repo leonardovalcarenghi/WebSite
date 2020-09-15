@@ -43,6 +43,12 @@
         gtag('config', 'UA-24707561-38');
     </script>
 
+    <script type="text/javascript">
+        var href = window.location.href.toLocaleLowerCase();
+        if (!href.includes('.com.br')) { } else
+            if (href.includes('http://')) { window.location.href = href.replace('http://', 'https://') }
+    </script>
+
 </head>
 
 <body>
@@ -378,6 +384,7 @@
                     <li data-target="#testimonials-carousel" data-slide-to="3"></li>
                     <li data-target="#testimonials-carousel" data-slide-to="4"></li>
                     <li data-target="#testimonials-carousel" data-slide-to="5"></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="6"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -394,6 +401,23 @@
                         <div class="source">
                             <div class="name">Ivan Santos da Cunha</div>
                             <div class="position">Coordenador, Safeweb</div>
+                        </div>
+                        <!--//source-->
+
+                    </div>
+                    <!--//item-->
+
+                    <div class="item carousel-item ">
+                        <blockquote class="quote">
+                            <p>
+                                <span class="icon-holder"><i class="fas fa-quote-left"></i></span>
+                                Excelente profissional, comprometido com o trabalho e com o time. Ajuda os colegas,
+                                procura sempre aprimorar a técnica e está atento as tecnologias emergentes.
+                            </p>
+                        </blockquote>
+                        <div class="source">
+                            <div class="name">Fabio Chiocca</div>
+                            <div class="position">Scrum Master, Safeweb</div>
                         </div>
                         <!--//source-->
 
