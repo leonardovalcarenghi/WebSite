@@ -2,7 +2,7 @@
     "name": "XPEG Count",
     "short_name": "XPEG Count",
     "description": "Gerenciador de despesas pessoais.",
-    "start_url": "/xpeg-count",
+    "start_url": "/",
     "scope": "/",
     "background_color": "#6236FF",
     "display": "standalone",
